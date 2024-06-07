@@ -43,66 +43,67 @@ JSON se utiliza en diversas áreas, incluyendo:
 ### Objetos
 ```
 {
-  "persona": {
-    "nombre": "Ana",
-    "edad": 30,
-    "ciudad": "Barcelona"
+  "coche": {
+    "marca": "Seat",
+    "Matrícula": 4567GRF,
+    "ciudad": "Sueca"
   }
 }
 ```
 ### Arreglos
 ```
 {
-  "frutas": ["Manzana", "Banana", "Naranja"]
+  "jugadores": ["Messi", "Neymar", "Gabi"]
 }
 ```
 ### Booleanos
 ```
 {
-  "esActivo": true,
-  "esAdmin": false
+  "esCorrecto": true,
+  "esImagen": false
 }
 ```
 ### Null
 ```
 {
-  "apellido": null
+  "fotografia": null
 }
 ```
 ## ¿Cómo abrir un archivo JSON?
 Para abrir un archivo JSON, se pueden usar diversos programas y métodos:
 
-- Editores de texto como Notepad++, Sublime Text, o Visual Studio Code.
+- Editores de texto como Visual Studio Code, Sublime Text, o Notepad++.
+- - Lenguajes de programación como Python, JavaScript, y otros, que tienen bibliotecas para manipular JSON.
 - Navegadores web que pueden mostrar la estructura JSON.
-- Lenguajes de programación como Python, JavaScript, y otros, que tienen bibliotecas para manipular JSON.
+
 
 # YAML
 ![YAML](https://media.licdn.com/dms/image/D4D12AQGtHSb18Dvh1Q/article-cover_image-shrink_720_1280/0/1695637064391?e=2147483647&v=beta&t=wRiEJFQmw12BL5FA65i2yn18DdsYkfR3Xo4V6Kn7uuY)
 
 ## ¿Qué es YAML?
-YAML (YAML Ain't Markup Language) es un formato de serialización de datos legible para los humanos, utilizado comúnmente para archivos de configuración. Al igual que JSON, es fácil de leer y escribir, pero tiene una sintaxis más simple y limpia, lo que facilita su uso para los desarrolladores y administradores de sistemas.
+YAML (YAML Ain't Markup Language) formato de serialización de datos legible para los humanos, utilizado para archivos de configuración.Fácil de leer y escribir, con sintaxis más simple y limpia, fácil uso para los desarrolladores y administradores de sistemas.
 
 ## Sintaxis de YAML
-YAML utiliza una sintaxis basada en indentación para definir la estructura de los datos, sin el uso de corchetes o comas. Aquí hay un ejemplo básico de un archivo YAML:
+YAML utiliza una sintaxis basada en indentación para definir la estructura de los datos, sin corchetes o comas. Ejemplo básico de un archivo YAML:
 ```
 persona:
-  nombre: Ana
-  edad: 30
-  ciudad: Barcelona
+  nombre: Jose
+  edad: 46
+  ciudad: Sueca
 
-frutas:
-  - Manzana
-  - Banana
-  - Naranja
+Equipos:
+  - Valencia
+  - Barcelona
+  - Madrid
 
 esActivo: true
 apellido: null
 ```
 
 # Diferencias entre JSON y YAML
+- Comentarios: YAML permite comentarios usando #, mientras que JSON no soporta comentarios.
 - Legibilidad: YAML es generalmente más legible y fácil de escribir para los humanos debido a su sintaxis minimalista, mientras que JSON es más verboso.
 - Uso de espacios: YAML depende de la indentación para definir la estructura, mientras que JSON utiliza llaves y corchetes.
-- Comentarios: YAML permite comentarios usando #, mientras que JSON no soporta comentarios.
 - Compatibilidad: JSON es un subconjunto de JavaScript y es ampliamente soportado en aplicaciones web, mientras que YAML es más común en archivos de configuración.
 
 # Bibliografía
